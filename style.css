@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: burlywood;
+}
+
+.gameContainer{
+  background-color: #fff;
+  padding: 1em 3em 3em 3em;
+  border-radius: 15px;
+  flex-basis: 40rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+}
+
+.reset-button{
+  align-self: center;
+  
+  padding: 0.5em 5em;
+}
